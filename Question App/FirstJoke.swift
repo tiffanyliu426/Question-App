@@ -10,9 +10,9 @@ import SwiftUI
 struct FirstJoke: View {
     
     @State private var textTitle = "Take your pick!"
-    // you can;t have a varibale for image but you can have a variable for imageName!!
+    // you can't have a varibale for image but you can have a variable for imageName!!
     @State private var imageName = ""
-    // trial of chaning text size when button is pressed
+    // trial of changing text size when button is pressed
     @State private var textSize = 20
     
     var body: some View {
